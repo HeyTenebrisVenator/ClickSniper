@@ -3,13 +3,13 @@ ClickSniper is a tool that is developed with python, and it's mission is to tran
 
 ClickJacking is one of the easiest vulnerabilities that you can find. It works with the iframe element from html, that can create an hidden fishing page
 
-Options:
+```Options:
 -h, --help           Display this help message
 -e, --element        Look for some element in the page, like inputs. EX: <input type="password" (this indicates that the page has sensitive input fields) separe by commas
 -l, --list           Path to the list of directories
 -o, --output         Path to the save output file
 -hm, --html           Path to the HTML output file (This can be used as a PoC, beacuse it will create iframes to display the results)
-
+```
 To do this tool works properly, you'll need to give it a file with directories.
 
 !WARNING: THIS TOOL NEED THE ENTIRE URL, SUCH AS THE PROTOCOL!
